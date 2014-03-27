@@ -1,0 +1,162 @@
+\documentclass{sig-alternate} 
+
+\newcommand{\TITLE}{A Comparison of Strategies For Establishing Linkage of Publishers and User Facilities}
+\newcommand{\AUTHOR}{Fugang Wang, Gregor von Laszewski} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LATEX DEFINITIONS 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{hyperref} 
+\usepackage{array} 
+\usepackage{graphicx} 
+\usepackage{booktabs} 
+\usepackage{pifont} 
+\usepackage{todonotes} 
+\usepackage{rotating} 
+\usepackage{color} 
+ 
+\newcommand*\rot{\rotatebox{90}} 
+ 
+\newcommand{\FILE}[1]{\todo[color=green!40]{#1}} 
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% HYPERSETUP 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hypersetup{ 
+    bookmarks=true,         % show bookmarks bar 
+    unicode=false,          % non-Latin characters in AcrobatΓÇÖs bookmarks 
+    pdftoolbar=true,        % show AcrobatΓÇÖs toolbar 
+    pdfmenubar=true,        % show AcrobatΓÇÖs menu 
+    pdffitwindow=false,     % window fit to page when opened 
+    pdfstartview={FitH},    % fits the width of the page to the window 
+    pdftitle={\TITLE},    % title 
+    pdfauthor={\AUTHOR},     % author 
+    pdfsubject={Subject},   % subject of the document 
+    pdfcreator={Gregor von Laszewski, Fugang Wang},   % creator of the document 
+    pdfproducer={Gregor von Laszewski}, % producer of the document 
+    pdfkeywords={hindex} {metric}{XSEDE} {FutureGrid}, % list of keywords 
+    pdfnewwindow=true,      % links in new window 
+    colorlinks=false,       % false: boxed links; true: colored links 
+    linkcolor=red,          % color of internal links (change box color with linkbordercolor) 
+    citecolor=green,        % color of links to bibliography 
+    filecolor=magenta,      % color of file links 
+    urlcolor=cyan           % color of external links 
+} 
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+ 
+\begin{document} 
+% 
+% --- Author Metadata here --- 
+\conferenceinfo{XSEDE}{'14 Atlanta, Georgia, U.S.A.} 
+\CopyrightYear{2014}  
+\crdata{X-XXXXX-XX-X/XX/XX}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE. 
+% --- End of Author Metadata --- 
+ 
+\title{\TITLE} 
+%\subtitle{[Extended Abstract] 
+%\titlenote{A full version of this paper is available as 
+%\texttt{www.acm.org/eaddress.htm}}} 
+ 
+\numberofauthors{6}  
+\author{ 
+\alignauthor 
+Gregor von Laszewski\titlenote{Corresponding Author.} \\
+Fugang Wang\\
+Geoffrey C. Fox\\ 
+       \affaddr{Indiana University}\\ 
+       \affaddr{2719 10th Street}\\ 
+       \affaddr{Bloomington, Indiana, U.S.A.}\\ 
+       \email{laszewski@gmail.com} 
+\alignauthor  
+Thomas R. Furlani\\ 
+Robert L. DeLeon\\ 
+Steven M. Gallo\\ 
+       \affaddr{Center for Computational Research}\\
+       \affaddr{University at Buffalo, SUNY}\\ 
+       \affaddr{701 Ellicott Street}\\ 
+       \affaddr{Buffalo, New York, 14203}
+} 
+\date{13 March 2014} 
+ 
+\toappear{} 
+\maketitle 
+\begin{abstract} 
+
+TBD
+ 
+\end{abstract} 
+ 
+% A category with the (minimum) three required fields 
+\category{H.4}{Information Systems Applications}{Miscellaneous} 
+%A category including the fourth, optional field follows... 
+\category{D.2.8}{Software Engineering}{Metrics}[complexity measures, performance measures] 
+ 
+\terms{Theory} 
+ 
+\keywords{Scientific impact, bibliometric, h-index, Technology Audit Service, XDMoD, XSEDE} 
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% SECTIONS 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TBD
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Related Work}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TBD
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Methods For Establishing Linkage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Text Mining Based Techniques}
+
+\subsubsection{XSEDE work}
+\subsubsection{Patton/Stahl work}
+
+\subsection{Metadata Identifier Based Techniques}
+
+\subsubsection{ORNL's DOI work}
+
+\subsubsection{NCAR's DOI and ARK work}
+
+\subsubsection{FundRef}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Future Work}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TBD
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusion}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TBD
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% Acknowledgment 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+ 
+\section*{Acknowledgement} 
+ 
+This work is part of the Technology Auditing Service (TAS) project sponsored by NSF under grant number OCI 1025159. Lessons learned from FutureGrid have significantly influenced this work. 
+ 
+%\clearpage 
+ 
+%\bibliographystyle{IEEEtranS}
+\bibliographystyle{IEEEtran}
+%\bibliographystyle{abbrv} 
+\bibliography{% 
+tas.bib} 
+ 
+\end{document} 
