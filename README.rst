@@ -33,6 +33,7 @@ View the paper with PDF viewer
 ----------------------------------------------------------------------
 
 The file::
+
    paper-publinkage.pdf 
 
 will include the pdf version. You need to create it with::
